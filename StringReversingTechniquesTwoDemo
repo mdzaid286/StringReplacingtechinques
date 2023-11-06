@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class StringReversingTechniquesTwoDemo {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the String: ");
+		
+		String s = scan.nextLine();
+		
+		StringReversingTechniquesTwo sr2 = new StringReversingTechniquesTwo();
+		
+		System.out.println(sr2.reversingTechinque1(s));
+		
+		scan.close();
+		
+
+	}
+
+}
