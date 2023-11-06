@@ -1,0 +1,17 @@
+public String reversingTechinque1(String s) {
+		
+		String[] srr = s.split(" ");
+		
+		StringBuffer sb = new StringBuffer();
+		
+		for(int i = srr.length - 1;i>=0;i--) {
+			if(i==srr.length-1) {
+				
+			  sb.append(srr[i]);
+			}else {
+				sb.append(" "+ srr[i]);
+			}
+		}
+		
+		return new String(sb);
+	}
